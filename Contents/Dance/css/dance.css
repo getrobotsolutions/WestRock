@@ -144,7 +144,7 @@ box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.75);
     color: pink;
     background-image: url(../images/01.jpg);
     height: 380px;
-    background-size: auto;
+    background-size: cover;
 }
 
 .bagoverlay{
