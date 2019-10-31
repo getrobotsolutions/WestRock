@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Bukra-Regular;
+    src: url(../../css/Fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Bukra-Light;
+    src: url(../../css/Fonts/OpenSans-Light.ttf);
+}
+body{
+	//font-family: 'Bukra-Light' !important;
+/*font-weight: bold;*/
+}
+body {
+	margin: 0;
+	padding: 0;
+	//overflow: hidden;
+}
+.home{
+	float: right;
+	height: 57px;
+	padding-right: 10px;
+
+}
+.main{
+	background-color: #f7a658;
+    min-height: 1000px;
+	background-image: url("../../assets/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+overflow: hidden;}
+
+.bg {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	/*top: 200px;*/
+	top: 475px;
+	margin:10px 30px 0 30px;
+	border:10px solid #004e9b;
+	-webkit-box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.75);
+}
+.bg img{
+	width: 1000px;
+	/*height: 715px;*/
+}
+
+.canvas {
+	position: absolute;
+    /*left: 283px;*/
+    /* z-index: -2; */
+    /*top: 560px;
+    height: 394px;
+    width: 281px;*/
+    left: 250px;
+    top: 588px;
+}
+
+.frame {
+	position: absolute;
+	left: 327px;
+    top: 593px;
+}
+
+#frame {
+	/* display: none; */
+	width: 280px;
+}
+
+.number {
+	position: absolute;
+	/*left: 362px;
+	/*top: 549px;
+	top:730px;*/
+	left: 463px;
+    top: 730px;
+}
+
+#number {
+	/* display: none; */
+}
+
+.shot {
+	position: absolute;
+    left: 384px;
+    /* top: 474px; */
+    top: 668px;
+}
+.shot img{
+	width: 280px;
+    /*height: 401px;*/
+}
+
+.delete {
+	position: absolute;
+	right: 65px;
+	top: 1155px;
+}
+.delete button{
+	background-color: #d4d4d4;
+	width: 200px;
+	font-size: 30px;
+	border-radius: 25px;
+	padding: 5px;
+	border: solid #ffffff;
+	color: #000000;
+}
+.img-home {
+	position: absolute;
+	z-index: 99;
+	margin-top: -64px;
+	/*cursor: pointer;*/
+	height: 66px;
+}
+footer {
+	/*position: absolute;
+	bottom: -8px !important;*/
+    border-top: 15px solid  #f7a658;
+}
+.titleAvatar{
+	background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+#change-us, #change-ar{text-decoration: none;}
+.deltext{
+	    text-align: center;
+	    color: #000000;
+    position: absolute;
+    top: 666px;
+    left: 290px;
+    font-size: 35px;
+    width: 388px;
+    line-height: 60px;
+    }
+
+     a {
+    color: #008a97 !important;
+}
+ #change-us, #change-ar{padding: 0px 10px 5px 10px !important; border-radius: 5px;text-decoration: none;}
+ .active{
+    color: rgb(255, 255, 255) !important;
+ background: #008a97 !important;
+  }
