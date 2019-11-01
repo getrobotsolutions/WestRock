@@ -34,14 +34,14 @@ body{
 	font-family: 'GillSansStd' !important;
 	color: #ffffff;
 	/*background-image: url(../assets/bg.png);*/
-	/*background-color: #004990 !important;
-	background-color: #004990;*/
+	background-color: #ebeaea !important;
+	
 }
 header
 {
 	width: 1080px;
 	height: 370px;
-	/*background-color: #002c66;*/
+	background-color: #ffffff;
 }
 nav{
 	/*margin-top: 15px ;*/
@@ -50,7 +50,7 @@ nav{
 }
 header .logo {
 	text-align: center;
-	padding: 45px 0 0 0;
+	padding: 74px 0 0 0;
 }
 header .logo img {
 	width: 1020px;
@@ -61,7 +61,6 @@ header .logo img {
 	background-size: cover;
     background-position: inherit;*/
   	background-color: #ebeaea;
-   /* background-color: #00562c; */
 	height: 997px;
 	padding-top: 50px;
 	border-bottom: 15px solid #f7a658;

@@ -226,7 +226,7 @@ function SendEmail()
     var tempEmail=message;
     //var addr = "paul@robotaisolutions.com";
     var subject = "Your robot selfie";
-    var body = "Thank you for visiting the RE/MAX Showcase booth! Here is your photo from our robot.";
+    var body = "Thank you for visiting WestRock.";
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
     //var pswd = "123456789K";
