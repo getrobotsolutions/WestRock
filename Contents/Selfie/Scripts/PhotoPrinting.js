@@ -225,8 +225,8 @@ function SendEmail()
     var addr = message;
     var tempEmail=message;
     //var addr = "paul@robotaisolutions.com";
-    var subject = "Your robot selfie";
-    var body = "Thank you for visiting WestRock.";
+    var subject = "Your Robot Picture";
+    var body = "Thanks for taking time to participate in the WestRock Food & Beverage Americas National Business Meeting. We hope you enjoyed the event, and are taking away some inspiration for the year ahead -- along with this excellent photo of you! (Attached.)";
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
     //var pswd = "123456789K";
