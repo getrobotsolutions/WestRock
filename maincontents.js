@@ -114,30 +114,18 @@ function OnJoystickControlled(strPara){
 
 
     if(btn_info[0] == '1'){
-           // window.external.ChangeLanguage("en-us");
-            SetVolume(1);
-            window.external.PlaySpeech("Take a picture with me");     
+           PlaySpeech("I'm thirsty, can you buy me a drink?  Ha, ha, just kidding.");
     }
 
     if(btn_info[1] == '1'){
-        //window.external.ChangeLanguage("en-us");
-        SetVolume(1);
-        window.external.PlaySpeech("Welcome to the RE MAX Showcase Booth");
+        PlaySpeech("I like you, can I take your picture?");
         
     }
     if(btn_info[2] == '1'){
-        //window.external.ChangeLanguage("en-us");
-            SetVolume(1);
-            window.external.PlaySpeech("Would you like to see me dance?");
+        PlaySpeech("I want to be on Dancing with the Stars, will you dance with me?");
     }
     if(btn_info[3] == '1'){
-        //window.external.ChangeLanguage("en-us");
-        SetVolume(1);
-       window.external.PlaySpeech("I'm thirsty, can you buy me a drink?");
-        
-    }
-    if(btn_info[4] == '1'){
-        FC_ContentsCall('Config');       
+        PlaySpeech("Wanna be a robot?");
     }
 }
 
